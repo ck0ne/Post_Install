@@ -26,7 +26,7 @@ gsettings set com.canonical.Unity.Lenses disabled-scopes "['more_suggestions-ama
 # installation de skype
   mkdir skype
   cd skype
-  wget -O skype.deb http://download.skype.com/linux/skype-ubuntu-precise_4.2.0.13-1_i386.deb
+  wget -O skype.deb http://download.skype.com/linux/skype-ubuntu-precise_4.3.0.37-1_i386.deb
   sudo dpkg -i skype.deb
   sudo apt-get -f install;rm skype.deb
   
