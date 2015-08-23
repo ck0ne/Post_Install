@@ -31,6 +31,11 @@ apt-get install firefox
 # installatin de VLC
 apt-get install vlc
 
+# installation de Brightness indicator
+#   ajout du PPA
+sudo add-apt-repository ppa:indicator-brightness/ppa
+#   installation
+sudo apt-get update && sudo apt-get install indicator-brightness
 
 
 
