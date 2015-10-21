@@ -37,5 +37,10 @@ sudo add-apt-repository ppa:indicator-brightness/ppa
 #   installation
 sudo apt-get update && sudo apt-get install indicator-brightness
 
+# Customization
+# enable double-click on files 
+gsettings set org.pantheon.files.preferences single-click false
+
+
 
 
